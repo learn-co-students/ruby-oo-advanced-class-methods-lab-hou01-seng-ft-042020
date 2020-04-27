@@ -64,12 +64,10 @@ class Song
     song.name = song_name
     song.artist_name = artist_name
     song
+    # self.new_from_filename(file_name).save
   end
 
   def self.destroy_all
     @@all.clear
   end
-
-
 end
-
